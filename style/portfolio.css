@@ -7,6 +7,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+section {
+  margin-bottom: 130px;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
@@ -14,6 +18,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 20px;
 }
 .section-description {
   color: #757575;
@@ -22,6 +27,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
+  margin-bottom: 50px;
 }
 
 nav {
@@ -106,11 +112,50 @@ nav a {
 }
 
 /* main section style  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section style  */
 .about {
   padding: 130px;
   border-radius: 10px;
-  margin: 130px;
+  margin: 130px 0;
   background-color: #fff8f3;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+  font-style: bold;
+}
+
+.skill-container {
+  gap: 25px;
+  display: flex;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill > img {
+  margin-bottom: 30px;
+}
+.skill > .skill-title {
+  margin-bottom: 10px;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
